@@ -11,5 +11,7 @@ Description: Designing surveys require relevant datasets to be used as basis for
     can be used for estimating indicator variance and design effects. This package
     contains relevant datasets for use in designing surveys in Liberia.
 License: CC0
+Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
