@@ -1,0 +1,40 @@
+################################################################################
+#
+# Libraries
+#
+################################################################################
+library(rgeos)
+library(rgdal)
+library(raster)
+library(readxl)
+library(stringr)
+
+
+################################################################################
+#
+# Read maps
+#
+################################################################################
+
+counties <- readOGR(dsn = "data-raw/maps/lbr_admbnda_adm1_ocha",
+                    layer = "lbr_admbnda_adm1_ocha",
+                    verbose = FALSE)
+
+devtools::use_data(counties, overwrite = TRUE)
+
+districts <- readOGR(dsn = "data-raw/maps/lbr_admbnda_adm2_ocha",
+                     layer = "lbr_admbnda_adm2_ocha",
+                     verbose = FALSE)
+
+devtools::use_data(districts, overwrite = TRUE)
+
+settlements <- readOGR(dsn = "data-raw/maps/lbr_plp_ocha",
+                       layer = "lbr_plp_ocha",
+                       verbose = FALSE)
+
+devtools::use_data(settlements, overwrite = TRUE)
+
+health_facilities <- read_excel(path = "data-raw/maps/141121-lr-health-care-facilities.xlsx", sheet = 2, skip = 1)
+
+names(health_facilities) <- str_remove(string = names(health_facilities), pattern = "#")
+
