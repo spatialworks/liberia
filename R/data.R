@@ -112,3 +112,57 @@ NULL
 #
 ################################################################################
 "settlements"
+
+
+################################################################################
+#
+#' locality
+#'
+#' Dataset of localities with population size for Grand Bassa and Rural
+#' Montserrado
+#'
+#' @format A data.frame with 9 columns and 3412 rows
+#' \describe{
+#' \item{\code{FID}}{Locality ID}
+#' \item{\code{County}}{Name of county}
+#' \item{\code{District}}{Name of district}
+#' \item{\code{Clan}}{Name of clan}
+#' \item{\code{`Locality/ Town`}}{Name of locality/town}
+#' \item{\code{MALE}}{Number of male population}
+#' \item{\code{FEMALE}}{Number of female population}
+#' \item{\code{TOTAL}}{Total population}
+#' \item{\code{HH}}{Number of households}
+#' }
+#'
+#' @source Liberia Institute of Statistics and Geo-Information Services
+#'
+#
+################################################################################
+"locality"
+
+
+################################################################################
+#
+#' enumerationArea
+#'
+#' Dataset of enumeration areas with population size for Grand Bassa and Rural
+#' Montserrado
+#'
+#' @format A data.frame with 8 columns and 751 rows
+#' \describe{
+#' \item{\code{County}}{Name of county}
+#' \item{\code{District}}{Name of district}
+#' \item{\code{Clan}}{Name of clan}
+#' \item{\code{EACODE}}{Enumeration area code}
+#' \item{\code{MALE}}{Number of male population}
+#' \item{\code{FEMALE}}{Number of female population}
+#' \item{\code{HH}}{Number of households}
+#' \item{\code{TOTAL}}{Total population}
+#' }
+#'
+#' @source Liberia Institute of Statistics and Geo-Information Services
+#'
+#
+################################################################################
+"enumerationArea"
+
