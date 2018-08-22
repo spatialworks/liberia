@@ -167,3 +167,26 @@ NULL
 "enumerationArea"
 
 
+################################################################################
+#
+#' monrovia
+#'
+#' Dataset of enumeration areas with population size for Greater Monrovia
+#' District
+#'
+#' @format A data.frame with 8 columns and 751 rows
+#' \describe{
+#' \item{\code{County}}{Name of county}
+#' \item{\code{District}}{Name of district}
+#' \item{\code{Town/Locality}}{Town or locality name}
+#' \item{\code{MALE}}{Number of male population}
+#' \item{\code{FEMALE}}{Number of female population}
+#' \item{\code{TOTAL}}{Total population}
+#' }
+#'
+#' @source Liberia Institute of Statistics and Geo-Information Services
+#'
+#
+################################################################################
+"monrovia"
+
