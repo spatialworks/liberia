@@ -28,6 +28,13 @@ districts <- readOGR(dsn = "data-raw/maps/lbr_admbnda_adm2_ocha",
 
 devtools::use_data(districts, overwrite = TRUE)
 
+clans <- readOGR(dsn = "data-raw/maps/clans",
+                    layer = "LIB",
+                    verbose = FALSE)
+
+devtools::use_data(clans, overwrite = TRUE)
+
+
 settlements <- readOGR(dsn = "data-raw/maps/lbr_plp_ocha",
                        layer = "lbr_plp_ocha",
                        verbose = FALSE)
