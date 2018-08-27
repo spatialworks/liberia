@@ -82,6 +82,104 @@ NULL
 
 ################################################################################
 #
+#' clans
+#'
+#' Administrative Level 2 (clans) map of Liberia
+#'
+#' @format A SpatialPolygonsDataFrame with 305 features:
+#' \describe{
+#' \item{\code{ID}}{Object identifier}
+#' \item{\code{LBL}}{Clan identifier}
+#' \item{\code{FIP}}{Two character country code for Liberia}
+#' \item{\code{MMT_ID}}{Three character country code for Liberia}
+#' \item{\code{SHORT__FRM}}{Short form name for Liberia}
+#' \item{\code{LONG_FRM}}{Long form name for Liberia}
+#' \item{\code{ADM0}}{Administrative level 0 of Liberia (Country name)}
+#' \item{\code{ADM1}}{Administrative level 1 of Liberia (County name)}
+#' \item{\code{ADM2}}{Administrative level 2 of Liberia (District name)}
+#' \item{\code{ADM3}}{Administrative level 3 of Liberia (Clan name)}
+#' }
+#'
+#' @source Map Maker Ltd. (2007). Clans, Liberia, 2007 Map Maker, Ltd. Available
+#' at: \url{http://purl.stanford.edu/vm535pw6013}.
+#'
+#
+################################################################################
+"clans"
+
+
+################################################################################
+#
+#' grandBassaEA
+#'
+#' Enumeration area map of Grand Bassa county
+#'
+#' @format A SpatialPolygonsDataFrame with 468 features:
+#' \describe{
+#' \item{\code{CCNAME}}{County name}
+#' \item{\code{DNAME}}{District name}
+#' \item{\code{CLNAME}}{Clan name}
+#' \item{\code{FEACODE}}{Full EA code}
+#' \item{\code{SAREA}}{Area map label}
+#' \item{\code{EFEACODE}}{Extended full EA code}
+#' \item{\code{CCODE}}{County code}
+#' \item{\code{DCODE}}{District code}
+#' \item{\code{CLCODE}}{Clan code}
+#' \item{\code{EACODE}}{Enumeration area code}
+#' \item{\code{TOTAL}}{Total population}
+#' \item{\code{MALE}}{Male population}
+#' \item{\code{FEMALE}}{Female population}
+#' \item{\code{HH}}{Total households}
+#' \item{\code{CCODE1}}{Extended county code}
+#' \item{\code{DCODE1}}{Extended district code}
+#' \item{\code{CLCODE1}}{Extended clan code}
+#' \item{\code{EACODE1}}{Extended enumeration area code}
+#' }
+#'
+#' @source Liberia Institute of Statistics and Geo-Information Services
+#'
+#
+################################################################################
+"grandBassaEA"
+
+
+################################################################################
+#
+#' greaterMonroviaEA
+#'
+#' Enumeration area map of Greater Monrovia District
+#'
+#' @format A SpatialPolygonsDataFrame with 1967 features:
+#' \describe{
+#' \item{\code{CCNAME}}{County name}
+#' \item{\code{DNAME}}{District name}
+#' \item{\code{CLNAME}}{Clan name}
+#' \item{\code{FEACODE}}{Full EA code}
+#' \item{\code{SAREA}}{Area map label}
+#' \item{\code{EFEACODE}}{Extended full EA code}
+#' \item{\code{CCODE}}{County code}
+#' \item{\code{DCODE}}{District code}
+#' \item{\code{CLCODE}}{Clan code}
+#' \item{\code{EACODE}}{Enumeration area code}
+#' \item{\code{TOTAL}}{Total population}
+#' \item{\code{MALE}}{Male population}
+#' \item{\code{FEMALE}}{Female population}
+#' \item{\code{HH}}{Total households}
+#' \item{\code{CCODE1}}{Extended county code}
+#' \item{\code{DCODE1}}{Extended district code}
+#' \item{\code{CLCODE1}}{Extended clan code}
+#' \item{\code{EACODE1}}{Extended enumeration area code}
+#' }
+#'
+#' @source Liberia Institute of Statistics and Geo-Information Services
+#'
+#
+################################################################################
+"greaterMonroviaEA"
+
+
+################################################################################
+#
 #' settlements
 #'
 #' Map of settlement locations in Liberia
