@@ -47,11 +47,17 @@ grandBassaEA <- readOGR(dsn = "data-raw/maps/Bassa_EA",
                         layer = "Bassa_EA",
                         verbose = FALSE)
 
+grandBassaEA <- spTransform(grandBassaEA,
+                            CRSobj = CRS(proj4string(counties)))
+
 devtools::use_data(grandBassaEA, overwrite = TRUE)
 
 greaterMonroviaEA <- readOGR(dsn = "data-raw/maps/Greater_Monrovia_EA",
                              layer = "Greater_Monrovia_EA",
                              verbose = FALSE)
+
+greaterMonroviaEA <- spTransform(greaterMonroviaEA,
+                                 CRSobj = CRS(proj4string(counties)))
 
 devtools::use_data(greaterMonroviaEA, overwrite = TRUE)
 
