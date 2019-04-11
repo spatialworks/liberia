@@ -9,6 +9,6 @@ png(filename = "inst/figures/liberia.png", width = 2, height = 2, units = "in", 
 
 par(mar = c(0,0,0,0), pty = "s", bg = NA)
 
-plot(counties, border = "#D84942", col = "#D77C79", lwd = 1.5)
+plot(counties, border = "#D84942", col = "#D77C79", lwd = 1)
 
 dev.off()
