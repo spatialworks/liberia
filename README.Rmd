@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Datasets for Use in Designing Surveys in Liberia <img src="man/figures/liberia.png" width="200" align="right" />
+# liberia: Datasets for Use in Designing Surveys in Liberia <img src="man/figures/liberia.png" width="200" align="right" />
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![Travis-CI Build Status](https://travis-ci.org/validmeasures/liberia.svg?branch=master)](https://travis-ci.org/validmeasures/liberia)

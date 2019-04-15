@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Datasets for Use in Designing Surveys in Liberia <img src="man/figures/liberia.png" width="200" align="right" />
-================================================================================================================
+liberia: Datasets for Use in Designing Surveys in Liberia <img src="man/figures/liberia.png" width="200" align="right" />
+=========================================================================================================================
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![Travis-CI Build
