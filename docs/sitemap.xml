@@ -1,27 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://validmeasures.org/liberia/index.html</loc>
+    <loc>https://spatialworks.io/liberia/404.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/counties.html</loc>
+    <loc>https://spatialworks.io/liberia/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/districts.html</loc>
+    <loc>https://spatialworks.io/liberia/authors.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/enumerationArea.html</loc>
+    <loc>https://spatialworks.io/liberia/index.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/liberia.html</loc>
+    <loc>https://spatialworks.io/liberia/news/index.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/locality.html</loc>
+    <loc>https://spatialworks.io/liberia/reference/clans.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/monrovia.html</loc>
+    <loc>https://spatialworks.io/liberia/reference/counties.html</loc>
   </url>
   <url>
-    <loc>https://validmeasures.org/liberia/reference/settlements.html</loc>
+    <loc>https://spatialworks.io/liberia/reference/districts.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/enumerationArea.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/grandBassaEA.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/greaterMonroviaEA.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/liberia.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/locality.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/monrovia.html</loc>
+  </url>
+  <url>
+    <loc>https://spatialworks.io/liberia/reference/settlements.html</loc>
   </url>
 </urlset>
