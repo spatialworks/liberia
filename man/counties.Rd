@@ -4,7 +4,8 @@
 \name{counties}
 \alias{counties}
 \title{counties}
-\format{A SpatialPolygonsDataFrame with 15 features:
+\format{
+A SpatialPolygonsDataFrame with 15 features:
 \describe{
 \item{\code{OBJECTID}}{Object identifier}
 \item{\code{CNTRY_CODE}}{Three-character ISO country code. For Liberia it is
@@ -19,7 +20,8 @@
 \item{\code{admin0name}}{Name of country}
 \item{\code{admin0Pcod}}{Country postal code. LR for Liberia.}
 \item{\code{Pcod1_iso3}}{County postal code using ISO3 code}
-}}
+}
+}
 \source{
 \url{https://data.humdata.org/dataset/liberia-admin-level-2-boundaries}
 }

@@ -4,7 +4,8 @@
 \name{locality}
 \alias{locality}
 \title{locality}
-\format{A data.frame with 9 columns and 3412 rows
+\format{
+A data.frame with 9 columns and 3412 rows
 \describe{
 \item{\code{FID}}{Locality ID}
 \item{\code{County}}{Name of county}
@@ -15,7 +16,8 @@
 \item{\code{FEMALE}}{Number of female population}
 \item{\code{TOTAL}}{Total population}
 \item{\code{HH}}{Number of households}
-}}
+}
+}
 \source{
 Liberia Institute of Statistics and Geo-Information Services
 }

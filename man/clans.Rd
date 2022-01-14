@@ -4,7 +4,8 @@
 \name{clans}
 \alias{clans}
 \title{clans}
-\format{A SpatialPolygonsDataFrame with 305 features:
+\format{
+A SpatialPolygonsDataFrame with 305 features:
 \describe{
 \item{\code{ID}}{Object identifier}
 \item{\code{LBL}}{Clan identifier}
@@ -16,7 +17,8 @@
 \item{\code{ADM1}}{Administrative level 1 of Liberia (County name)}
 \item{\code{ADM2}}{Administrative level 2 of Liberia (District name)}
 \item{\code{ADM3}}{Administrative level 3 of Liberia (Clan name)}
-}}
+}
+}
 \source{
 Map Maker Ltd. (2007). Clans, Liberia, 2007 Map Maker, Ltd. Available
 at: \url{http://purl.stanford.edu/vm535pw6013}.

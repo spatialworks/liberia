@@ -4,7 +4,8 @@
 \name{districts}
 \alias{districts}
 \title{districts}
-\format{A SpatialPolygonsDataFrame with 136 features:
+\format{
+A SpatialPolygonsDataFrame with 136 features:
 \describe{
 \item{\code{OBJECTID}}{Object identifier}
 \item{\code{CNTRY_NAME}}{Country name}
@@ -20,7 +21,8 @@
 \item{\code{admin2Pcod}}{District postal code}
 \item{\code{Pcod1_iso3}}{County postal code using ISO3 code}
 \item{\code{Pcod2_iso3}}{District postal code using ISO3 code}
-}}
+}
+}
 \source{
 \url{https://data.humdata.org/dataset/liberia-admin-level-2-boundaries}
 }

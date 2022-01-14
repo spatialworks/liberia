@@ -4,7 +4,8 @@
 \name{settlements}
 \alias{settlements}
 \title{settlements}
-\format{A SpatialPointsDataFrame with 14013 features:
+\format{
+A SpatialPointsDataFrame with 14013 features:
 \describe{
 \item{\code{OBJECTID}}{Object identifier}
 \item{\code{FNAME}}{Settlement name}
@@ -23,7 +24,8 @@
 \item{\code{rowcacode0}}{Three-character ISO country code}
 \item{\code{Pcod1_iso3}}{County postal code using ISO3 code}
 \item{\code{Pcod2_iso3}}{District postal code using ISO3 code}
-}}
+}
+}
 \source{
 \url{https://data.humdata.org/dataset/liberia-settlements-0}
 }

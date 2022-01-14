@@ -4,7 +4,8 @@
 \name{greaterMonroviaEA}
 \alias{greaterMonroviaEA}
 \title{greaterMonroviaEA}
-\format{A SpatialPolygonsDataFrame with 1967 features:
+\format{
+A SpatialPolygonsDataFrame with 1967 features:
 \describe{
 \item{\code{CCNAME}}{County name}
 \item{\code{DNAME}}{District name}
@@ -24,7 +25,8 @@
 \item{\code{DCODE1}}{Extended district code}
 \item{\code{CLCODE1}}{Extended clan code}
 \item{\code{EACODE1}}{Extended enumeration area code}
-}}
+}
+}
 \source{
 Liberia Institute of Statistics and Geo-Information Services
 }

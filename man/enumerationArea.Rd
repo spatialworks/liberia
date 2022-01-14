@@ -4,7 +4,8 @@
 \name{enumerationArea}
 \alias{enumerationArea}
 \title{enumerationArea}
-\format{A data.frame with 8 columns and 751 rows
+\format{
+A data.frame with 8 columns and 751 rows
 \describe{
 \item{\code{County}}{Name of county}
 \item{\code{District}}{Name of district}
@@ -14,7 +15,8 @@
 \item{\code{FEMALE}}{Number of female population}
 \item{\code{HH}}{Number of households}
 \item{\code{TOTAL}}{Total population}
-}}
+}
+}
 \source{
 Liberia Institute of Statistics and Geo-Information Services
 }
