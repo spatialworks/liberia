@@ -9,3 +9,4 @@
 ^appveyor\.yml$
 ^LICENSE\.md$
 ^\.github$
+^pkgdown$
