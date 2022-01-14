@@ -68,9 +68,10 @@ usethis::use_data(settlements, overwrite = TRUE)
 # devtools::use_data(grandBassaEA, overwrite = TRUE)
 
 grandBassaEA <- sf::st_read(
-  dsn = "data-raw/maps/ea", layer = "grand_bassa_ruralEAs"
+  dsn = "data-raw/maps/Bassa_EA", layer = "Bassa_EA"
 )
-sf::st_crs(grandBassaEA) <- 4326
+grandBassaEA <- sf::st_transform(grandBassaEA, crs = sf::st_crs(counties))
+#sf::st_crs(grandBassaEA) <- 4326
 usethis::use_data(grandBassaEA, overwrite = TRUE)
 
 # greaterMonroviaEA <- readOGR(dsn = "data-raw/maps/Greater_Monrovia_EA",
@@ -83,9 +84,12 @@ usethis::use_data(grandBassaEA, overwrite = TRUE)
 # devtools::use_data(greaterMonroviaEA, overwrite = TRUE)
 
 greaterMonroviaEA <- sf::st_read(
-  dsn = "data-raw/maps/ea", layer = "greater_monrovia_eas"
+  dsn = "data-raw/maps/Greater_Monrovia_EA", layer = "Greater_Monrovia_EA"
 )
-sf::st_crs(greaterMonroviaEA) <- 4326
+greaterMonroviaEA <- sf::st_transform(
+  greaterMonroviaEA, crs = sf::st_crs(counties)
+)
+#sf::st_crs(greaterMonroviaEA) <- 4326
 usethis::use_data(greaterMonroviaEA,  overwrite = TRUE)
 
 health_facilities <- read_excel(
