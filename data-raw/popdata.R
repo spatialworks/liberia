@@ -1,4 +1,3 @@
-
 library(readxl)
 
 locality <- read_xlsx(path = "data-raw/popdata.xlsx", sheet = 1)

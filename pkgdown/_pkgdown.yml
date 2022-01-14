@@ -1,0 +1,28 @@
+title: liberia
+
+url: https://spatialworks.io/liberia
+
+template:
+  params:
+    bootswatch: sandstone
+    #ganalytics: UA-102485058-5
+
+reference:
+- title: Description
+  contents:
+  - liberia
+
+- title: Map Data
+  contents:
+  - counties
+  - districts
+  - clans
+  - grandBassaEA
+  - greaterMonroviaEA
+  - settlements
+
+- title: Population Data
+  contents:
+  - locality
+  - enumerationArea
+  - monrovia
