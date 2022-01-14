@@ -1,8 +1,8 @@
 pandoc: 2.14.0.3
-pkgdown: 2.0.1
+pkgdown: 2.0.2
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-01-14T10:49Z
+last_built: 2022-01-14T22:20Z
 urls:
   reference: https://spatialworks.io/liberia/reference
   article: https://spatialworks.io/liberia/articles
