@@ -10,6 +10,8 @@ knitr::opts_chunk$set(
   comment = "#>",
   fig.path = "man/figures/README-"
 )
+
+library(liberia)
 ```
 
 # liberia: Datasets for Use in Designing Surveys in Liberia <img src="man/figures/logo.svg" width="200" align="right" />
@@ -17,6 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/spatialworks/liberia/workflows/R-CMD-check/badge.svg)](https://github.com/spatialworks/liberia/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/spatialworks/liberia/badge)](https://www.codefactor.io/repository/github/spatialworks/liberia)
 <!-- badges: end -->
 
 Designing surveys require relevant datasets to be used as basis for sample size calculations, sampling design, survey planning/logistics and survey implementation. These include datasets on population, lists of sampling clusters, map datasets for spatial sampling, and previous survey datasets that can be used for estimating indicator variance and design effects. This package contains relevant datasets for use in designing surveys in Liberia.
@@ -28,4 +31,42 @@ Install `liberia` package from GitHub via `remotes``:
 ```{r, echo = TRUE, eval = FALSE}
 if (!require(remotes)) install.packages("remotes")
 remotes::install_github("spatialworks/liberia")
+```
+
+## Usage
+
+### Counties map
+
+```{r liberia1, fig.align = "center", fig.width = 10, fig.height = 10}
+plot(sf::st_geometry(counties))
+```
+
+### Districts map
+
+```{r liberia2, fig.align = "center", fig.width = 10, fig.height = 10}
+plot(sf::st_geometry(districts))
+```
+
+### Clans map
+
+```{r liberia3, fig.align = "center", fig.width = 10, fig.height = 10}
+plot(sf::st_geometry(clans))
+```
+
+### Locality population
+
+```{r liberia4, fig.align = "center", fig.width = 10, fig.height = 10}
+locality
+```
+
+### Enumeration areas population
+
+```{r liberia5, fig.align = "center", fig.width = 10, fig.height = 10}
+enumerationArea
+```
+
+### Monrovia population
+
+```{r liberia6, fig.align = "center", fig.width = 10, fig.height = 10}
+monrovia
 ```
